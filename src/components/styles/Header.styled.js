@@ -11,7 +11,7 @@ justify-content: space-between;
 margin-bottom: 40px;
 `
 export const Logo = styled.img`
-@media (max-width: ${({ theme }) => theme.mobile}) {
+@media (max-width: 768px) {
   flex-direction: column;
   margin-bottom: 40px;
 }`
